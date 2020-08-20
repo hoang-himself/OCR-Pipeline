@@ -11,11 +11,11 @@ def vn2k_to_wgs83(coordinate,crs):
     Input:
     
         - ( x, y ) : TUPLE chứa cặp toạ độ x và y theo đơn vị float 
-        - city_id : INT - id (mã) vùng thành phố/ tỉnh mà chứa cặp toạ độ x, y 
+        - crs : INT - id (mã) vùng chứa cặp toạ độ x, y theo toạ độ Google
 
     Output: 
 
-        - (longitude, latitude): TUPLE chứa cặp kinh độ - vĩ độ 
+        - (longitude, latitude): TUPLE chứa cặp kinh độ - vĩ độ theo toạ độ Google Map
 
 
     """
@@ -38,7 +38,7 @@ def vn2k_to_wgs83(coordinate,crs):
 #     Input:
     
 #         - Cặp toạ độ x, y : TUPLE chứa cặp toạ độ x và y theo đơn vị float 
-#         - city_id : INT - id (mã) vùng thành phố/ tỉnh mà chứa cặp toạ độ x, y 
+#         - city_id : INT - id (mã) vùng thành phố/ tỉnh mà chứa cặp toạ độ x, y theo toạ độ việt nam
 
 #     Output: 
 

@@ -1,6 +1,6 @@
 # OCR-PIPELINE
 
-## Project target: Giải quyết bài toán tìm toạ độ từ ảnh sổ hồng/ sổ đỏ 
+## Project target: Giải quyết bài toán tìm toạ độ từ ảnh sổ hồng/ sổ đỏ. Ghép thành một api hoàn chỉnh (ocr-pipeline) 
 
 # Brief description:
 
@@ -25,10 +25,14 @@
 	# Bước 1: 
 	Được thực hiện bởi model CRAFT và GDB_Scan (đoạn code được cung cấp trong ocr_test)
 	# Bước 2: 
-	Code cung cấp bởi Hưng và Duy (báo cáo kết quả nằm trong folder post_processing
+	Code cung cấp bởi Hưng và Duy (báo cáo kết quả nằm trong folder doc) - chạy tiếp ocr_process.ipnyb để xem phần hậu xử lí data
 	# Bước 3:
-	Bổ sung trong đoạn code từ bước 2 , sử dụng module của python : pyproj (hàm chuyển đổi toạ độ vn2k tìm được từ bước 2 thành lat-long theo vị trí Google Map)
+	Sử dụng module của python : pyproj (hàm chuyển đổi toạ độ vn2k tìm được từ bước 2 thành lat-long theo vị trí Google Map) - code cung cấp trong folder vn2k_to_wgs84
 	# Bước 4: 
-	Bổ sung trong đoạn code từ bước 3, gọi tới api google map với parameters là cặp kinh độ- vĩ độ vừa chuyển đổi từ bước 3 
+	Gọi tới api của Google Map, parameters là cặp kinh độ , vĩ độ vừa nhận được từ bước ba  
 
+# Test: 
+	
+	Mọi người test thử với các ảnh trong folder hình ảnh Hình ảnh sổ hồng-sổ đỏ nhé!
+	File chính để chạy là ocr_process.ipnyb để test phần hậu xử lí data 
 
