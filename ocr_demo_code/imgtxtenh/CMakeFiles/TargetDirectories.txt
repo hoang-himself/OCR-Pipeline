@@ -1,8 +1,0 @@
-/content/drive/My Drive/ocr_demo_code/imgtxtenh/CMakeFiles/install/strip.dir
-/content/drive/My Drive/ocr_demo_code/imgtxtenh/CMakeFiles/install/local.dir
-/content/drive/My Drive/ocr_demo_code/imgtxtenh/CMakeFiles/install.dir
-/content/drive/My Drive/ocr_demo_code/imgtxtenh/CMakeFiles/list_install_components.dir
-/content/drive/My Drive/ocr_demo_code/imgtxtenh/CMakeFiles/rebuild_cache.dir
-/content/drive/My Drive/ocr_demo_code/imgtxtenh/CMakeFiles/edit_cache.dir
-/content/drive/My Drive/ocr_demo_code/imgtxtenh/CMakeFiles/realclean.dir
-/content/drive/My Drive/ocr_demo_code/imgtxtenh/CMakeFiles/imgtxtenh.dir
